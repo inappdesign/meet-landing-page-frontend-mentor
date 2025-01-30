@@ -1,0 +1,122 @@
+/* variables start */
+:root {
+	/* colors */
+	--cyan-600: #4d96a9;
+	--cyan-300: #8fe3f9;
+	--purple-600: #855fb1;
+	--purple-300: #d9b8ff;
+	--slate-900: #28283d;
+	--slate-600: #87879d;
+	--slate-300: #d1d1df;
+	--white: #fafafa;
+
+	/* font */
+	--red-hat: "Red Hat Display", sans-serif;
+
+	/* spacing */
+	--16: 1.6rem;
+	--17: 1.7rem;
+	--24: 2.4rem;
+	--29: 2.95rem;
+	--32: 3.2rem;
+	--48: 4.8rem;
+	--56: 5.6rem;
+	--64: 6.4rem;
+	--72: 7.2rem;
+}
+/* variables end */
+
+/* Global styles start*/
+body {
+	font-size: var(--16);
+	font-family: var(--red-hat);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn {
+	font-size: 1.6rem;
+	font-weight: 900;
+	height: 5.6rem;
+	color: var(--white);
+	border: none;
+	border-radius: 10rem;
+	cursor: pointer;
+}
+
+.btn-cyan {
+	background-color: var(--cyan-600);
+	width: 19.3rem;
+}
+
+.btn-cyan:hover {
+	background-color: #71c0d4;
+}
+
+.btn-purple {
+	background-color: var(--purple-600);
+	width: 16.1rem;
+}
+
+.btn-purple:hover {
+	background-color: #b18bdd;
+}
+
+.number-base {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.number-line {
+	height: 8rem;
+	border-left: var(--slate-300) solid 0.1rem;
+}
+
+.number-circle {
+	height: var(--56);
+	width: var(--56);
+	font-weight: 900;
+	color: var(--slate-600);
+	background-color: var(--white);
+	border: var(--slate-300) solid 0.1rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+}
+
+.heading-1 {
+	font-size: clamp(4rem, calc(0.25rem + 5vw), 6.4rem);
+	font-weight: 900;
+	text-align: center;
+	line-height: 1.1;
+	color: var(--slate-900);
+	margin-bottom: var(--24);
+}
+
+.heading-2 {
+	font-size: clamp(1.2rem, calc(0.2rem + 1vw), 1.6rem);
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 0.4rem;
+	line-height: 1.1;
+	color: var(--cyan-600);
+	margin-bottom: var(--24);
+}
+
+.paragraph {
+	font-size: clamp(1.6rem, calc(0.5rem + 5vw), 1.8rem);
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5;
+	color: var(--slate-600);
+	margin-bottom: var(--24);
+}
+/* Global styles end */
