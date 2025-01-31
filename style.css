@@ -240,6 +240,7 @@ main {
 
 	.hero-grid {
 		grid-template-areas: "image-L content image-R";
+		width: 100%;
 	}
 
 	.hero-content {
