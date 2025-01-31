@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/meet-landing-page-RYy5MC1rX5)
+- Live Site URL: [Live version of my solution](https://meet-landing-page-frontend-mentor.vercel.app/)
 
 ## My process
 
