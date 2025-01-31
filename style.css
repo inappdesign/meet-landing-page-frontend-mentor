@@ -181,13 +181,9 @@ main {
 
 /* media queries */
 @media (min-width: 48rem) {
-	main {
+	/* main {
 		min-width: 76.8rem;
-	}
-
-	.image-gallery-grid {
-		min-width: 68rem;
-	}
+	} */
 
 	.hero-grid {
 		column-gap: var(--32);
@@ -209,6 +205,10 @@ main {
 
 	.btn-cyan {
 		margin-bottom: 0;
+	}
+
+	.image-gallery-grid {
+		min-width: 68rem;
 	}
 
 	.images {
@@ -240,6 +240,7 @@ main {
 
 	.hero-grid {
 		grid-template-areas: "image-L content image-R";
+		justify-content: space-betwee;
 		width: 100%;
 	}
 
