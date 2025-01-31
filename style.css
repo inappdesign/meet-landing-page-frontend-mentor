@@ -131,10 +131,7 @@ main {
 			rgba(77, 151, 169, 0.85),
 			rgba(77, 151, 169, 0.85)
 		),
-		url(./assets/mobile/image-footer.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+		url(./assets/mobile/image-footer.jpg) no-repeat center center/cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -183,7 +180,7 @@ main {
 }
 
 /* media queries */
-@media (min-width: 1000px) {
+@media (min-width: 48rem) {
 	main {
 		min-width: 76.8rem;
 	}
@@ -223,15 +220,12 @@ main {
 	}
 
 	.section-2-background {
-		height: 32rem;
+		height: 38rem;
 		background: linear-gradient(
 				rgba(77, 151, 169, 0.85),
 				rgba(77, 151, 169, 0.85)
 			),
-			url(./assets/tablet/image-footer.jpg);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+			url(./assets/tablet/image-footer.jpg) no-repeat center center/cover;
 	}
 
 	.section-2-content-grid {
@@ -239,7 +233,11 @@ main {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 87.5rem) {
+	main {
+		margin: var(--80) var(--80) 0;
+	}
+
 	.hero-grid {
 		grid-template-areas: "image-L content image-R";
 	}
@@ -264,10 +262,7 @@ main {
 				rgba(77, 151, 169, 0.85),
 				rgba(77, 151, 169, 0.85)
 			),
-			url(./assets/desktop/image-footer.jpg);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+			url(./assets/desktop/image-footer.jpg) no-repeat center center/cover;
 	}
 
 	.section-2-content-grid {
